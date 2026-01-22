@@ -6,7 +6,7 @@ This repository provides **Chrome DevTools MCP** - a Model Context Protocol serv
 
 ## Can I use this to upgrade Internet Explorer or Windows Explorer?
 
-**No.** This repository has nothing to do with Microsoft's Internet Explorer, Microsoft Edge, or Windows File Explorer. Despite the repository name containing "CHROME-UPGRAE", this is a tool for:
+**No.** This repository has nothing to do with Microsoft's Internet Explorer, Microsoft Edge, or Windows File Explorer. Despite the repository name containing "CHROME-UPGRAE" (note: the repository name itself contains a typo - it should be "UPGRADE" but is spelled "UPGRAE"), this is a tool for:
 - Automating Google Chrome browser
 - Debugging web applications in Chrome
 - Analyzing web performance in Chrome
@@ -23,7 +23,7 @@ Internet Explorer is no longer supported by Microsoft. You should:
 
 Windows File Explorer is part of the Windows operating system and cannot be upgraded separately. To get the latest version:
 1. Update Windows through Windows Update
-2. Go to Settings → Update & Security → Windows Update
+2. Go to Settings → Windows Update (or Settings → Update & Security → Windows Update on older Windows versions)
 3. Alternatively, consider upgrading to the latest version of Windows
 
 ## What does this repository actually do?
