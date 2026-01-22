@@ -2,10 +2,14 @@
 
 [![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)
 
+> **Browser Automation & Debugging for Chrome** - Not a browser upgrade tool
+
 `chrome-devtools-mcp` lets your coding agent (such as Gemini, Claude, Cursor or Copilot)
-control and inspect a live Chrome browser. It acts as a Model-Context-Protocol
+control and inspect a live **Chrome** or **Chromium-based browser**. It acts as a Model-Context-Protocol
 (MCP) server, giving your AI coding assistant access to the full power of
 Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.
+
+**Note:** This tool works exclusively with Chrome and Chromium-based browsers (Chrome, modern Edge). It does **not** support Internet Explorer, Safari, Firefox, or legacy Edge.
 
 ## [Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)
 
@@ -19,6 +23,50 @@ Chrome DevTools for reliable automation, in-depth debugging, and performance ana
 - **Reliable automation**. Uses
   [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions in
   Chrome and automatically wait for action results.
+
+## Frequently Asked Questions
+
+### What is Chrome DevTools MCP?
+
+Chrome DevTools MCP is a **browser automation and debugging tool** that allows AI coding assistants to control and inspect Google Chrome. It provides programmatic access to Chrome's developer tools for testing, debugging, and performance analysis.
+
+### What browsers are supported?
+
+**Only Chrome and Chromium-based browsers are supported**, including:
+
+- Google Chrome (stable, beta, dev, canary)
+- Microsoft Edge (Chromium-based version)
+- Other Chromium-based browsers
+
+**This tool does NOT support:**
+
+- Internet Explorer (any version)
+- Legacy Microsoft Edge (EdgeHTML-based)
+- Safari
+- Firefox
+- Opera (non-Chromium versions)
+
+### Is this a browser upgrade tool?
+
+**No.** This repository does not upgrade your browser. It provides automation and debugging capabilities for existing Chrome installations. To upgrade Chrome:
+
+- Chrome updates automatically on most systems
+- Visit `chrome://settings/help` in your Chrome address bar
+- Or download the latest version from [google.com/chrome](https://www.google.com/chrome/)
+
+### Can I use this with Internet Explorer or Edge?
+
+**Internet Explorer**: No, Internet Explorer is not supported and never will be, as it uses a completely different engine.
+
+**Microsoft Edge**: Yes, but only the modern Chromium-based version of Edge (released in 2020 and later). The legacy EdgeHTML-based Edge is not supported.
+
+### What do I need to use this tool?
+
+You need:
+
+1. A recent version of Google Chrome (or Chromium-based browser)
+2. Node.js v20.19 or newer
+3. An MCP-compatible client (like Gemini CLI, Claude Desktop, VS Code with Copilot, etc.)
 
 ## Disclaimers
 
