@@ -33,11 +33,13 @@ Chrome DevTools MCP is a **browser automation and debugging tool** that allows A
 ### What browsers are supported?
 
 **Only Chrome and Chromium-based browsers are supported**, including:
+
 - Google Chrome (stable, beta, dev, canary)
 - Microsoft Edge (Chromium-based version)
 - Other Chromium-based browsers
 
 **This tool does NOT support:**
+
 - Internet Explorer (any version)
 - Legacy Microsoft Edge (EdgeHTML-based)
 - Safari
@@ -47,6 +49,7 @@ Chrome DevTools MCP is a **browser automation and debugging tool** that allows A
 ### Is this a browser upgrade tool?
 
 **No.** This repository does not upgrade your browser. It provides automation and debugging capabilities for existing Chrome installations. To upgrade Chrome:
+
 - Chrome updates automatically on most systems
 - Visit [chrome://settings/help](chrome://settings/help) in Chrome
 - Or download the latest version from [google.com/chrome](https://www.google.com/chrome/)
@@ -60,6 +63,7 @@ Chrome DevTools MCP is a **browser automation and debugging tool** that allows A
 ### What do I need to use this tool?
 
 You need:
+
 1. A recent version of Google Chrome (or Chromium-based browser)
 2. Node.js v20.19 or newer
 3. An MCP-compatible client (like Gemini CLI, Claude Desktop, VS Code with Copilot, etc.)
