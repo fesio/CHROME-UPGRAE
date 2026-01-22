@@ -51,7 +51,7 @@ Chrome DevTools MCP is a **browser automation and debugging tool** that allows A
 **No.** This repository does not upgrade your browser. It provides automation and debugging capabilities for existing Chrome installations. To upgrade Chrome:
 
 - Chrome updates automatically on most systems
-- Visit [chrome://settings/help](chrome://settings/help) in Chrome
+- Visit `chrome://settings/help` in your Chrome address bar
 - Or download the latest version from [google.com/chrome](https://www.google.com/chrome/)
 
 ### Can I use this with Internet Explorer or Edge?
